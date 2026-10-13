@@ -25,10 +25,10 @@ No git? Click Code > Download ZIP on GitHub and unzip it instead.
 `npm run setup` creates a `.env` file. Open it and fill in:
 
 ```
-TWITCH_CHANNELS=alveussanctuary,maya
+TWITCH_CHANNELS=alveussanctuary,alveusgg
 KEYWORDS=giveaway,raid
-DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
-DISCORD_USER_ID=123456789012345678
+DISCORD_WEBHOOK_URL=YOUR_WEBHOOK_URL_HERE
+DISCORD_USER_ID=YOUR_USERID_HERE
 ```
 
 Then run it:
