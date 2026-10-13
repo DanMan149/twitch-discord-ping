@@ -1,0 +1,8 @@
+{
+  "globalKeywords": ["giveaway"],
+  "channels": {
+    "alveussanctuary": ["raid", "pylon"],
+    "maya": ["subathon"],
+    "someotherchannel": []
+  }
+}

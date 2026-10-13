@@ -1,0 +1,6 @@
+services:
+  twitch-discord-ping:
+    build: .
+    container_name: twitch-discord-ping
+    env_file: .env
+    restart: unless-stopped

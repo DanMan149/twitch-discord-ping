@@ -1,0 +1,22 @@
+{
+  "name": "twitch-discord-ping",
+  "version": "1.1.0",
+  "description": "Watch Twitch chats and get a Discord ping when a keyword is mentioned. Self-hosted, no Twitch login needed.",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["twitch", "discord", "webhook", "chat", "keyword", "alerts", "bot"],
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js",
+    "check": "node --check index.js && node --check setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "tmi.js": "^1.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
